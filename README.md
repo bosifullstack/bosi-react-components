@@ -9,6 +9,7 @@
 --color-secondary
 
 --font-family
+--line-height
 --font-detail
 --font-body
 --font-h1
