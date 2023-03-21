@@ -1,5 +1,5 @@
 {
-  "name": "bosi-react-components",
+  "name": "bosi-components-react",
   "private": false,
   "version": "0.0.1",
   "type": "module",
@@ -16,13 +16,13 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/bosi-react-components.es.js",
-      "require": "./dist/bosi-react-components.umd.js"
+      "import": "./dist/bosi-components-react.es.js",
+      "require": "./dist/bosi-components-react.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/bosi-react-components.umd.js",
-  "module": "./dist/bosi-react-components.es.js",
+  "main": "./dist/bosi-components-react.umd.js",
+  "module": "./dist/bosi-components-react.es.js",
   "types": "./dist/index.d.ts",
   "peerDependencies": {
     "classnames": "^2.3.2",

@@ -23,9 +23,9 @@ export default defineConfig((configEnv) => ({
   build: {
     lib: {
       entry: resolve('src', 'index.ts'),
-      name: 'bosi-react-components',
+      name: 'bosi-components-react',
       formats: ['es', 'umd'],
-      fileName: (format) => `bosi-react-components.${format}.js`,
+      fileName: (format) => `bosi-components-react.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],

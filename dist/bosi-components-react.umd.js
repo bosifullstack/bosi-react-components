@@ -1,4 +1,4 @@
-(function(m,O){typeof exports=="object"&&typeof module<"u"?O(exports,require("react"),require("classnames")):typeof define=="function"&&define.amd?define(["exports","react","classnames"],O):(m=typeof globalThis<"u"?globalThis:m||self,O(m["bosi-react-components"]={},m.require$$0,m.classnames))})(this,function(m,O,Se){"use strict";var U={},Pe={get exports(){return U},set exports(_){U=_}},k={};/**
+(function(m,O){typeof exports=="object"&&typeof module<"u"?O(exports,require("react"),require("classnames")):typeof define=="function"&&define.amd?define(["exports","react","classnames"],O):(m=typeof globalThis<"u"?globalThis:m||self,O(m["bosi-components-react"]={},m.require$$0,m.classnames))})(this,function(m,O,Se){"use strict";var U={},Pe={get exports(){return U},set exports(_){U=_}},k={};/**
  * @license React
  * react-jsx-runtime.production.min.js
  *

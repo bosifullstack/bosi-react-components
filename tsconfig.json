@@ -19,7 +19,7 @@
     "declarationMap": true,
     "baseUrl": ".",
     "paths": {
-      "bosi-react-components": ["src/index.ts"]
+      "bosi-components-react": ["src/index.ts"]
     },
     "typeRoots": ["node_modules/@types", "src/index.d.ts"]
   },
