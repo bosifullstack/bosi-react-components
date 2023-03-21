@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
-    "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc"
+    "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "files": [
     "dist"
@@ -30,10 +32,19 @@
     "react-dom": "16.8.0 || >=17.x || ^18.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@vitejs/plugin-react": "^3.1.0",
+    "babel-loader": "^8.3.0",
     "classnames": "^2.3.2",
     "eslint": "^8.0.1",
     "eslint-config-standard-with-typescript": "^34.0.1",
@@ -41,6 +52,7 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-storybook": "^0.6.11",
     "prettier": "^2.8.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -50,5 +62,6 @@
     "vite-plugin-linter": "^2.0.2",
     "vite-tsconfig-paths": "^4.0.7"
   },
-  "license": "GPL-3.0-only"
+  "license": "GPL-3.0-only",
+  "dependencies": {}
 }
