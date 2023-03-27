@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react'
-import classnames from "classnames";
-import classes from "./styles.module.css";
+import classnames from 'classnames'
+import classes from './styles.module.css'
 
 export interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   children: ReactNode
@@ -23,7 +23,7 @@ export const Button = ({
     classes.button,
     action !== 'none' ? classes[action] : classes[color],
     classes[size],
-    className
+    className,
   )
 
   return (
@@ -31,4 +31,4 @@ export const Button = ({
       {children}
     </button>
   )
-};
+}
