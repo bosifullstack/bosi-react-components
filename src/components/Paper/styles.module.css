@@ -1,0 +1,26 @@
+.paper {
+  margin-top: calc(var(--spacing) * 10);
+  margin-bottom: calc(var(--spacing) * 10);
+  width: calc(100% - 40px);
+  padding: calc(var(--spacing) * 3) calc(var(--spacing) * 2);
+  background-color: var(--color-element-background);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .paper {
+    width: calc(100% - 80px);
+  }
+}
